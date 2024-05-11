@@ -1,0 +1,22 @@
+header, footer {
+    display: none !important;
+}
+  
+body {
+    background: none !important;
+}
+  
+a:after {
+    content: " (" attr(href) ") ";
+}
+  
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+  
+@media print {
+    body {
+      padding: 50px;
+    }
+}
+  

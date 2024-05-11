@@ -1,3 +1,3 @@
-import "./../scss/index.less";
+import "./../scss/index.css";
 
 console.log("Hello World");
